@@ -15,9 +15,9 @@
     "title": {
       "type": "string"
     },
-    "eventImage": {
+    "imageUrl": {
       "type": "media",
-      "multiple": true,
+      "multiple": false,
       "required": false,
       "allowedTypes": [
         "images",
@@ -26,11 +26,14 @@
         "audios"
       ]
     },
-    "numberOfPeople": {
-      "type": "integer"
-    },
     "dateOfEvent": {
       "type": "date"
+    },
+    "eventDescription": {
+      "type": "text"
+    },
+    "timeOfEvent": {
+      "type": "string"
     }
   }
 }
